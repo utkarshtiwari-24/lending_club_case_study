@@ -1,5 +1,5 @@
 # Lending Club Case Study
-> Analyse historical data of loans given to certain employees and the reason behind the defaulted loans
+> Analyze historical data of loans given to certain employees and the reason behind the defaulted loans
 
 
 ## Table of Contents
@@ -11,38 +11,34 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Analysis based on historical loan data which will help us plan better in terms of whose loan should be approved and whose not.
+- This analysis will find reasons on why any employee wasn't able to pay the loan, and in. Future what factors must be considered before giving out a loan.
+- Dataset is shared as 'loan.csv' file.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Years 2008, 2009 and 2010 has the highest default rates, which is understandable as the World was going through an economic crisis and therefore has the maximum defaulters.
+- In Home Ownership category - OTHER has the most default percentage.
+- People running small businesses are more likely to default with the highest default percentage of 25% and major purchases and weddings have the least percentage
+- People with grades E,F,G are more likely to default as compared to other grades. 31% people with Grade G are likely to default. Sub Grades - F5, G3, G2 have the most default percentage and therefore more likely to default.
+- We can also imply that the loan amount, funded amount, the funded investor amount, interest rate, and their dti is greater for the defaulted people than those who have fully paid the loan whereas defaulted people's annual income is less than those who have fully paid the loan.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas
+- numpy 
+- matplotlib
+- seaborn
+- pillow - 7.0.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@utkarshtiwari-24] - feel free to contact me!
 
 
 <!-- Optional -->
